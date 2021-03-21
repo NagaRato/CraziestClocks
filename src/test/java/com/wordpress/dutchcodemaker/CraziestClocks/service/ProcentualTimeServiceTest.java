@@ -12,6 +12,7 @@ class ProcentualTimeServiceTest {
     public static void testProcentualTimeService() {
         double procentualTime = ProcentualTimeService.getTime(LocalTime.of(21, 13));
 
+
         assertEquals(884, procentualTime, "");
     }
 
